@@ -16,7 +16,7 @@ Output:
 
 -----
 
-*2)* User enters set of numbers. When he has entered value 0, program should print firstly all entered odd values and then all even numbers in normal order. Use **queue** for this task
+**2)** User enters set of numbers. When he has entered value 0, program should print firstly all entered odd values and then all even numbers in normal order. Use **queue** for this task
 
 Example:
 
@@ -34,7 +34,7 @@ Output:
 
 ------
 
-*3)* Users enters math expression. Program should writes all parts enclosed in parentheses. And print if all parentheses is closed. Use **stack** for this task
+**3)** Users enters math expression. Program should writes all parts enclosed in parentheses. And print if all parentheses is closed. Use **stack** for this task
 
 Example 1:
 
