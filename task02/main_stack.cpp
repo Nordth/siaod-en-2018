@@ -52,49 +52,27 @@ int pop(Stack *stack) {
 	}
 }
 
-/*
+
 int main() {
 	Stack stack;
 
-	init(stack);
+	init(&stack);
 
-	push(stack, 1);
-	push(stack, 2);
-	push(stack, 3);
-	push(stack, 4);
-	push(stack, 5);
+	push(&stack, 1);
+	push(&stack, 2);
+	push(&stack, 3);
+	push(&stack, 4);
+	push(&stack, 5);
 
-	int n = pop(stack);
+	int n = pop(&stack);
 	printf("%d", n); // 5
 
-	printf("%d", pop(stack)); // 4
-	printf("%d", pop(stack)); // 3
-	printf("%d", pop(stack)); // 2
-	printf("%d", pop(stack)); // 1
-	printf("%d", pop(stack)); // -1
+	printf("%d", pop(&stack)); // 4
+	printf("%d", pop(&stack)); // 3
+	printf("%d", pop(&stack)); // 2
+	printf("%d", pop(&stack)); // 1
+	printf("%d", pop(&stack)); // -1
 
 	return 0;
 }
 
-
-*/
-
-int main() {
-	Stack stack;
-	init(&stack);
-
-	// Stores values from user
-	int number;
-	do {
-		scanf("%d", &number);
-		if (number != 0) push(&stack, number);
-
-	} while (number != 0);
-
-	// Prints values in reverse order
-	do {
-		number = pop(&stack);
-		if (number != -1) printf("%d ", number);
-	} while (number != -1);
-
-}
