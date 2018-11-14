@@ -12,7 +12,7 @@
 9576094055
 ```
 
-3) Ask usr cutting range (R1, R2) `cut[c] = inv[c] >= R1 && inv[c] <= R2 ? 0 : inv[c];`
+3) Ask user cutting range (R1, R2) `cut[c] = inv[c] >= R1 && inv[c] <= R2 ? 0 : inv[c];`
 
 ```
 > R1 = 5
