@@ -19,7 +19,7 @@
 
 `9000094000`
 
-4) Ask user for a number and increase each element of signal on it. But element of signal should not become greater than 9
+4) Ask user for a number and increase each element of signal on it. But elements of signal should not become greater than 9
 
 > I = 2
 
