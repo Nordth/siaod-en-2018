@@ -1,63 +1,21 @@
-# Structures
+# Templates
 
-**1)** Declare structure `Vector`, which contains float X and Y coordinates
+1) User enters some signal (10 values from 0 to 9): 
+> 0423905944
 
-----
+2) Print inverted signal: 
+inv[c] = 9 - signal[c]
 
-**2)** Implement functions:
+9576094055
 
-a) `Vector sum(Vector a, Vector b)`:  a + b
+3) Ask usr cutting range (R1, R2)
+cut[c] = inv[c] >= R1 && inv[c] <= R2 ? 0 : inv[c];
 
-b) `Vector diff(Vector a, Vector b)`: a - b
+> R1 = 5
+> R2 = 7
+9000094000
 
-c) `float len(Vector a)`: square root of (`a.x` squared plus `a.y` squared)
+4) Ask user for a number and increase each element of signal on it. But element of signal should not become greater than 9
 
-d) `float dist(Vector a, Vector b)`: len(a - b)
-
-----
-
-**3)** User enters few points. Every point consists of X, Y coordinates and some letter (name of point). 
-
-When user enters `0 0 0`, program should print all points' names with theirs distance to (0, 0). 
-
-Example:
-
-Input 
-```
-10 0 A
-0 20 B
-10 10 C
-0 0 0
-```
-Output:
-```
-A 10
-B 20
-C 14.14213
-```
-
-----
-
-**4)** User enters few points. Every point consists of X, Y coordinates and some letter (name of point). 
-
-When user enters `0 0 0`, program asks him for his position (X, Y) and then prints all points' names ordered by distance to user position. Use bubble sort for this task.
-
-Example:
-
-
-Input 
-```
-10 0 A
-0 20 B
-10 10 C
-15 20 D
-0 0 0
-10 10
-```
-Output:
-```
-C 0
-A 10
-D 11.18033989
-B 14.14213562
-```
+> I = 2
+9222296222
