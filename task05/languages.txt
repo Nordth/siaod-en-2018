@@ -1,0 +1,11 @@
+10
+145 110 Russian
+203 10 Portuguese
+126 1 Japanese
+873 178 Chinese
+350 70 Spanish
+206 24 Arabic
+370 120 Hindi
+196 19 Bengali
+101 128 German
+340 170 English
