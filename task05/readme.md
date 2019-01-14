@@ -13,7 +13,7 @@ Native_N Second_N Name_N
 
 `Native_N` - number of native speakers (millions) for language N
 
-`Second_N` - number of speakeks (millions) with language N as second language
+`Second_N` - number of speakers (millions) with language N as second language
 
 `Name_N` - name of language N
 
