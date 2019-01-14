@@ -56,7 +56,7 @@ To close file use `fclose(f)`
 
 -----
 
-4) Write function `printLanguages(Language *langs, int n)`, which should print n languages from `langs` in same format as before
+4) Write function `printLanguages(Language *langs, int n)`, which should print `n` languages from `langs` in same format as before
 
 For now your program's alogirtm should be following:
 
